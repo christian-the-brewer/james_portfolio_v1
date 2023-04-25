@@ -26,3 +26,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.custom-img {
+  background-image: url('https://images.unsplash.com/photo-1531874668635-85a25b7279a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Ym9zdG9uJTIwc2t5bGluZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+}

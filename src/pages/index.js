@@ -7,7 +7,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
   <div>
-    <Hero />
+    <Hero heading='James Rose Photography'
+    message='Bringing photos into your face'/>
   </div>
   )
 }
