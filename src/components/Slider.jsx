@@ -12,7 +12,8 @@ function Slider({slides}) {
                 <Image src={slide.imageUrl} 
                 width='1440' 
                 height='600' 
-                objectFit='cover' />
+                objectFit='cover' 
+                />
             )
         })}
     </div>
