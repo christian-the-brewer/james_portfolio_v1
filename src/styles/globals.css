@@ -28,5 +28,10 @@ body {
 }
 
 .custom-img {
-  background-image: url('https://images.unsplash.com/photo-1531874668635-85a25b7279a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Ym9zdG9uJTIwc2t5bGluZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+  /* background-image: url('https://images.unsplash.com/photo-1531874668635-85a25b7279a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Ym9zdG9uJTIwc2t5bGluZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); */
+
+  /* background-image: url('https://live.staticflickr.com/65535/52849297834_1167b39c77_k.jpg'); */
+
+  background-image: url('https://live.staticflickr.com/65535/52849112111_352e57b3ff_c.jpg');
 }
+

@@ -16,7 +16,7 @@ function Navbar() {
     const changeColor = () => {
         if(window.scrollY >= 90) {
             setColor('#ffffff')
-            setTextColor('#000000')
+            setTextColor('black')
         } else {
             setColor('transparent')
             setTextColor('white')
@@ -29,9 +29,9 @@ function Navbar() {
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
             <Link href='/'>
-            <h1 style={{Color: `${textColor}`}} className='font-bold text-4xl'>James Rose</h1>
+            <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>James Rose</h1>
             </Link>
-            <ul style={{Color: `${textColor}`}} className='hidden sm:flex'>
+            <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                 <li className='p-4'>
                     <Link href='/'>Home</Link>
                 </li>
@@ -48,11 +48,11 @@ function Navbar() {
 
             {/* Mobile Button */}
             <div onClick={handleNav} className='sm:hidden block z-10'>
-                {nav ? <AiOutlineClose style={{Color: `${textColor}`}} size={20} /> : <AiOutlineMenu style={{Color: `${textColor}`}} size={20} /> }
+                {nav ? <AiOutlineClose style={{color: `${textColor}`}} size={20} /> : <AiOutlineMenu style={{color: `${textColor}`}} size={20} /> }
                 
             </div>
             {/* Mobile Menu*/}
-            <div style={{Color: `${textColor}`}} className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+            <div style={{color: `${textColor}`}} className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
             :
             'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
             }> 
